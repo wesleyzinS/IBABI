@@ -12,6 +12,23 @@
     <header id="top-bar">
         <botton style="transition: 150ms ease;">
             <div class="areas">
+                <script>
+                    var novoBotao = document.createElement("input")
+
+                    novoBotao.value = "OK"
+                    novoBotao.type = "submit"
+                    novoBotao.className = "botaoClasse"
+                    novoBotao.id = "botaoId"
+                    novoBotao.onclick = "spawn"
+                    novoParag.style.padding = "5px"
+                    novoParag.style.background = "rgb(230,112,3)"
+                    novoParag.style.display = "none"
+
+                    var novoParag = document.createElement('p')
+
+                    novoParag.appendChild(txtParag)
+
+                </script>
                 <img src="settingss.png"id="bot" style="width: 50px; padding: 5px 5px 5px 5px;">
             </div>
         </botton>
