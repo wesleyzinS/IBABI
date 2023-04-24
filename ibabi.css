@@ -267,23 +267,42 @@ body{
         border-radius: 50%;
         display: inline-block;
     }
-        #bot:hover{
-            background-color: rgb(128, 128, 128);
-            cursor: pointer;
-        }
-        #bot2{
-            background-color: rgb(223, 223, 223);
-            position: absolute;
-            margin-top: 0.16em;
-            right:0.16em;
-            top: 2%;
-            border-radius: 50%;
-            display: inline-block;
-        }
-        #bot2:hover{
-            background-color: rgb(128, 128, 128);
-            cursor: pointer;
-        }
+    #bot:hover{
+        transition: 0.5s;
+        background-color: rgb(128, 128, 128);
+        cursor: pointer;
+        border: 1px solid rgb(128, 128, 128);
+    }
+    #bot2{
+        background-color: rgb(223, 223, 223);
+        position: absolute;
+        margin-top: 0.16em;
+        right:0.16em;
+        top: 2%;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #bot2:hover{
+        transition: 0.5s;
+        background-color: rgb(128, 128, 128);
+        border: 1px solid rgb(128, 128, 128);
+        cursor: pointer;
+    }
+    #bot3{
+        position: absolute;
+        right: 37em;
+        bottom: 6em;
+        border: 2px solid white;
+        background: gray;
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(66, 66, 66) 0%, rgb(168, 168, 168) 100%);
+    }
+    #bot3:hover{
+        background-color: rgb(128, 128, 128);
+        cursor: pointer;
+        border: 3px solid rgb(185, 184, 184);
+        background: gray;
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(53, 53, 53) 0%, rgb(136, 136, 136) 100%);
+    }
 }    
 
 .text{
