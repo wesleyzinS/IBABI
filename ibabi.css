@@ -293,15 +293,16 @@ body{
         right: 37em;
         bottom: 6em;
         border: 2px solid white;
-        background: gray;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(66, 66, 66) 0%, rgb(168, 168, 168) 100%);
+        background: white;
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
     }
     #bot3:hover{
+        transition: 0.5s;
         background-color: rgb(128, 128, 128);
         cursor: pointer;
         border: 3px solid rgb(185, 184, 184);
         background: gray;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(53, 53, 53) 0%, rgb(136, 136, 136) 100%);
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
     }
 }    
 
