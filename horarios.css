@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/hre.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: #1F1E1E;
+}
+#imgCentral{
+    width: 100%;
+    height: 35em;
+    margin: 0%;
+}
+#map{
+    position: absolute;
+    top: 60em;
+    width: 98.5%;
+    margin: 0%;
+    padding: 10px;
+}
+#every{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 40%;
+}
+footer{
+    position: absolute;
+    top: 90em;
+    width: 100%;
+    height: max-content;
+    color: white;
+    background-color: darkgray;
+}
+footer{
+    
+}
+#face{
+    position: absolute;
+    left:45%;
+    padding: 10px;
+}
+#insta{
+    position: absolute;
+    right: 45%;
+    padding: 10px;
+}
