@@ -15,6 +15,7 @@ body{
     top: 60em;
     width: 98.5%;
     margin: 0%;
+    margin-top: 10px;
     padding: 10px;
 }
 #every{
@@ -30,12 +31,19 @@ footer{
     position: absolute;
     top: 90em;
     width: 100%;
-    height: max-content;
+    height: 9em;
     color: white;
     background-color: darkgray;
 }
-footer{
-    
+#fot{
+    position: absolute;
+    left: 40.5%;
+    top: 3.5em;
+}
+#fot2{
+    text-align: center;
+    position: relative;
+    top: 3em;
 }
 #face{
     position: absolute;

@@ -27,7 +27,7 @@
 
     <div id="spam">
         <img src="images/setinha.png" id="bot3" style="width: 40px; border-radius: 4em; background-color: rgb(204, 204, 204); padding: 5px 5px 5px 5px;">
-        <h2 id="box1">Este site pertence à igreja biblica batista de sumaré!<br>Nele você pode encontrar mais informações sobre a igreja</h2>
+        <h2 id="box1">Este site pertence à igreja biblica batista de sumaré!<br>Nele você pode encontrar mais informações sobre a igreja.</h2>
     </div>
 
         <div id="clicavel">
@@ -61,6 +61,7 @@
     <script>
         document.getElementById("bot2").addEventListener('click', e => {
             document.getElementById("spam").style.display = 'block'
+            document.getElementById("spam").style.transition = '0.5s'
         })
         document.getElementById("bot3").addEventListener('click', e => {
             document.getElementById("spam").style.display = 'none'
