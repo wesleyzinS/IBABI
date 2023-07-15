@@ -1,7 +1,6 @@
-
 @media screen and (orientation: portrait) {
     body{
-        background-image: url(images/edit4-2.jpg);
+        background-image: url(images/back.jpg);
         background-repeat: no-repeat;
         background-attachment: local;
         background-size: 100% ;
@@ -28,20 +27,19 @@
         box-shadow: inset 0 0 2em black;
     }
     #top-bar{
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
         padding: 14px;
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(128, 128, 128);      
+        border: outset 3px rgb(80, 80, 80);        
     }
     #clicavel{
         font-size: 1.5em;
         background-color: rgb(51, 51, 51);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -49,18 +47,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;   
+        border: outset 3px rgb(80, 80, 80);   
     }
     #clicavel:hover{
         transition: 0.5s;
-        font-size: 1.6em;
+        font-size: 1.5em;
         box-shadow: inset 0 0 1em black;
     }
     #clicavel2{
         font-size: 1.5em;
         background-color: rgb(51, 51, 51);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -68,18 +65,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(80, 80, 80);  
     }
     #clicavel2:hover{
         transition: 0.5s;
-        font-size: 1.6em;
+        font-size: 1.5em;
         box-shadow: inset 0 0 1em black;
     }
     #clicavel3{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -87,37 +83,41 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(80, 80, 80);  
     }
     #clicavel3:hover{
         transition: 0.5s;
-        font-size: 1.6em;
+        font-size: 1.5em;
         box-shadow: inset 0 0 1em black;
     }
     #bot{
-    background-color: rgb(223, 223, 223);
-    position: absolute;
-    margin-top: 0.8em;
-    left: 7px;
-    top: 2%;
-    border-radius: 50%;
-    display: inline-block;
+        background-color: rgb(143, 143, 143);
+        position: absolute;
+        margin-top: 0.16em;
+        left: 0.16em;
+        top: 3%;
+        border-radius: 50%;
+        display: inline-block;
     }
     #bot:hover{
-        background-color: rgb(128, 128, 128);
+        transition: 0.5s;
         cursor: pointer;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
     }
     #bot2{
-    background-color: rgb(223, 223, 223);
-    position: absolute;
-    margin-top: 0.8em;
-    right:7px;
-    top: 2%;
-    border-radius: 50%;
-    display: inline-block;
+        background-color: rgb(143, 143, 143);
+        position: absolute;
+        margin-top: 0.16em;
+        right:0.16em;
+        top: 2%;
+        border-radius: 50%;
+        display: inline-block;
     }
     #bot2:hover{
-        background-color: rgb(128, 128, 128);
+        transition: 0.5s;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
     #bot3{
@@ -153,9 +153,9 @@
     }
 }
 
-@media screen and (orientation: portrait) and (max-width: 409px){
+@media screen and (orientation: portrait) and (max-width: 494px){
     body{
-        background-image: url(images/edit4-2.jpg);
+        background-image: url(images/back-est.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100%;
@@ -182,20 +182,50 @@
         box-shadow: inset 0 0 2em black;
     }
     #top-bar{
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
         padding: 14px;
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(128, 128, 128);      
+        border: outset 3px rgb(80, 80, 80);        
     }
+    #bot{
+        background-color: rgb(143, 143, 143);
+        position: absolute;
+        margin-top: 0.16em;
+        left: 0.16em;
+        top: 3%;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #bot:hover{
+        transition: 0.5s;
+        cursor: pointer;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
+    }
+    #bot2{
+        background-color: rgb(143, 143, 143);
+        position: absolute;
+        margin-top: 0.16em;
+        right:0.16em;
+        top: 3%;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #bot2:hover{
+        transition: 0.5s;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
+        cursor: pointer;
+    }
+
     #clicavel{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -203,18 +233,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;   
+        border: outset 3px rgb(80, 80, 80);   
     }
     #clicavel:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel2{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -222,18 +251,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(20, 20, 20);  
     }
     #clicavel2:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel3{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -241,54 +269,295 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(80, 80, 80);  
     }
     #clicavel3:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
+    }
+    
+    footer{
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        height: max-content;
+        background-color: gray;
+    }
+    #face{
+        position: fixed;
+        left:47%;
+    }
+    #insta{
+        position: fixed;
+        right: 45%;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 408px){
+    body{
+        background-image: url(images/back-est.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100%;
+        background-color: #1F1E1E;
+        text-align: center;
+        width: 80vw;
+        height: max-content;
+    }
+    #spam{
+        padding: 2em;
+        background-color: gray;
+        border-radius: 2em;
+        color: white;
+        display: none;
+        position: absolute;
+        z-index: 1;
+        top: 35%;
+        left: 22%;
+        height: max-content;
+        width: 30em;
+    }
+    #spam:hover{
+        transition: 0.5s;
+        box-shadow: inset 0 0 2em black;
+    }
+    #top-bar{
+        background-color: rgb(20, 20, 20);
+        border-radius: 3em;
+        position: fixed;
+        padding: 14px;
+        left: 0%;
+        right: 0%;
+        margin: 0 auto;
+        border: outset 3px rgb(80, 80, 80);        
     }
     #bot{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
-        margin-top: 1.6em;
+        margin-top: 0.16em;
         left: 0.16em;
-        top: 2%;
+        top: 10%;
         border-radius: 50%;
         display: inline-block;
-        }
+    }
     #bot:hover{
-        background-color: rgb(128, 128, 128);
+        transition: 0.5s;
         cursor: pointer;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
     }
     #bot2{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
-        margin-top: 1.6em;
+        margin-top: 0.16em;
+        right:0.16em;
+        top: 3%;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #bot2:hover{
+        transition: 0.5s;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
+        cursor: pointer;
+    }
+
+    #clicavel{
+        font-size: 1.5em;
+        background-color: rgb(20, 20, 20);
+        color: white;
+        position: relative;
+        padding: 14px;
+        left: 13%;
+        top: 7em;
+        margin: 0 auto;
+        width: 12em;
+        height: max-content;
+        border: outset 3px rgb(80, 80, 80);   
+    }
+    #clicavel:hover{
+        transition: 0.5s;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
+    }
+    #clicavel2{
+        font-size: 1.5em;
+        background-color: rgb(20, 20, 20);
+        color: white;
+        position: relative;
+        padding: 14px;
+        left: 13%;
+        top: 9em;
+        margin: 0 auto;
+        width: 12em;
+        height: max-content;
+        border: outset 3px rgb(20, 20, 20);  
+    }
+    #clicavel2:hover{
+        transition: 0.5s;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
+    }
+    #clicavel3{
+        font-size: 1.5em;
+        background-color: rgb(20, 20, 20);
+        color: white;
+        position: relative;
+        padding: 14px;
+        left: 13%;
+        top: 11em;
+        margin: 0 auto;
+        width: 12em;
+        height: max-content;
+        border: outset 3px rgb(80, 80, 80);  
+    }
+    #clicavel3:hover{
+        transition: 0.5s;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
+    }
+    
+    footer{
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        height: max-content;
+        background-color: gray;
+    }
+    #face{
+        position: fixed;
+        left:47%;
+    }
+    #insta{
+        position: fixed;
+        right: 45%;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 671px){
+    body{
+        background-image: url(images/back-est.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100%;
+        background-color: #1F1E1E;
+        text-align: center;
+        width: 80vw;
+        height: max-content;
+    }
+    #spam{
+        padding: 2em;
+        background-color: gray;
+        border-radius: 2em;
+        color: white;
+        display: none;
+        position: absolute;
+        z-index: 1;
+        top: 35%;
+        left: 22%;
+        height: max-content;
+        width: 30em;
+    }
+    #spam:hover{
+        transition: 0.5s;
+        box-shadow: inset 0 0 2em black;
+    }
+    #top-bar{
+        background-color: rgb(20, 20, 20);
+        border-radius: 3em;
+        position: fixed;
+        padding: 14px;
+        left: 0%;
+        right: 0%;
+        margin: 0 auto;
+        border: outset 3px rgb(80, 80, 80);        
+    }
+
+    #bot{
+        background-color: rgb(143, 143, 143);
+        position: absolute;
+        margin-top: 0.16em;
+        left: 0.16em;
+        top: 4%;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #bot:hover{
+        transition: 0.5s;
+        cursor: pointer;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
+    }
+    #bot2{
+        background-color: rgb(143, 143, 143);
+        position: absolute;
+        margin-top: 0.16em;
         right:0.16em;
         top: 2%;
         border-radius: 50%;
         display: inline-block;
     }
     #bot2:hover{
-        background-color: rgb(128, 128, 128);
-        cursor: pointer;
-    }
-    #bot3{
-        position: absolute;
-        left: 0.5em;
-        top: 0.5em;
-        border: 2px solid white;
-        background: white;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
-    }
-    #bot3:hover{
         transition: 0.5s;
-        background-color: rgb(128, 128, 128);
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
-        border: 3px solid rgb(185, 184, 184);
-        background: gray;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
+    }
+    
+    #clicavel{
+        font-size: 1.5em;
+        background-color: rgb(20, 20, 20);
+        color: white;
+        position: relative;
+        padding: 14px;
+        left: 13%;
+        top: 7em;
+        margin: 0 auto;
+        width: 12em;
+        height: max-content;
+        border: outset 3px rgb(80, 80, 80);   
+    }
+    #clicavel:hover{
+        transition: 0.5s;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
+    }
+    #clicavel2{
+        font-size: 1.5em;
+        background-color: rgb(20, 20, 20);
+        color: white;
+        position: relative;
+        padding: 14px;
+        left: 13%;
+        top: 9em;
+        margin: 0 auto;
+        width: 12em;
+        height: max-content;
+        border: outset 3px rgb(20, 20, 20);  
+    }
+    #clicavel2:hover{
+        transition: 0.5s;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
+    }
+    #clicavel3{
+        font-size: 1.5em;
+        background-color: rgb(20, 20, 20);
+        color: white;
+        position: relative;
+        padding: 14px;
+        left: 13%;
+        top: 11em;
+        margin: 0 auto;
+        width: 12em;
+        height: max-content;
+        border: outset 3px rgb(80, 80, 80);  
+    }
+    #clicavel3:hover{
+        transition: 0.5s;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     footer{
         position: fixed;
@@ -309,7 +578,7 @@
 
 @media screen and (orientation: portrait) and (max-width: 280px){
     body{
-        background-image: url(images/edit4-2.jpg);
+        background-image: url(images/back-est.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100%;
@@ -336,20 +605,20 @@
         box-shadow: inset 0 0 2em black;
     }
     #top-bar{
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
         padding: 14px;
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(128, 128, 128);      
+        border: outset 3px rgb(80, 80, 80);        
     }
+
     #clicavel{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -357,18 +626,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;   
+        border: outset 3px rgb(80, 80, 80);   
     }
     #clicavel:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel2{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -376,18 +644,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(20, 20, 20);  
     }
     #clicavel2:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel3{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -395,54 +662,43 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(80, 80, 80);  
     }
     #clicavel3:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
+    
     #bot{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
-        margin-top: 2.3em;
+        margin-top: 0.16em;
         left: 0.16em;
-        top: 2%;
+        top: 3%;
         border-radius: 50%;
         display: inline-block;
-        }
+    }
     #bot:hover{
-        background-color: rgb(128, 128, 128);
+        transition: 0.5s;
         cursor: pointer;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
     }
     #bot2{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
-        margin-top: 2.3em;
+        margin-top: 0.16em;
         right:0.16em;
         top: 2%;
         border-radius: 50%;
         display: inline-block;
     }
     #bot2:hover{
-        background-color: rgb(128, 128, 128);
-        cursor: pointer;
-    }
-    #bot3{
-        position: absolute;
-        left: 0.5em;
-        top: 0.5em;
-        border: 2px solid white;
-        background: white;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
-    }
-    #bot3:hover{
         transition: 0.5s;
-        background-color: rgb(128, 128, 128);
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
-        border: 3px solid rgb(185, 184, 184);
-        background: gray;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
     }
     footer{
         position: fixed;
@@ -461,9 +717,9 @@
     }
 }
 
-@media screen and (orientation: portrait) and (min-width: 495px) and (max-width: 675px){
+@media screen and (orientation: portrait) and (min-width: 495px) and (max-width: 672px){
     body{
-        background-image: url(images/edit4-2.jpg);
+        background-image: url(images/back-est.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100%;
@@ -490,20 +746,19 @@
         box-shadow: inset 0 0 2em black;
     }
     #top-bar{
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
         padding: 14px;
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(128, 128, 128);      
+        border: outset 3px rgb(80, 80, 80);        
     }
     #clicavel{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -511,18 +766,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;   
+        border: outset 3px rgb(80, 80, 80);   
     }
     #clicavel:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel2{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -530,18 +784,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(20, 20, 20);  
     }
     #clicavel2:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel3{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -549,37 +802,42 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(80, 80, 80);  
     }
     #clicavel3:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
+    
     #bot{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
-        margin-top: 0.8em;
+        margin-top: 0.16em;
         left: 0.16em;
-        top: 2%;
+        top: 13%;
         border-radius: 50%;
         display: inline-block;
-        }
+    }
     #bot:hover{
-        background-color: rgb(128, 128, 128);
+        transition: 0.5s;
         cursor: pointer;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
     }
     #bot2{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
-        margin-top: 0.8em;
+        margin-top: 0.16em;
         right:0.16em;
-        top: 2%;
+        top: 13%;
         border-radius: 50%;
         display: inline-block;
     }
     #bot2:hover{
-        background-color: rgb(128, 128, 128);
+        transition: 0.5s;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
     #bot3{
@@ -617,7 +875,7 @@
 
 @media screen and (orientation: portrait) and (min-width:672px) and (max-width: 893px){
     body{
-        background-image: url(images/edit4.jpg);
+        background-image: url(images/back.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100%;
@@ -644,20 +902,19 @@
         box-shadow: inset 0 0 2em black;
     }
     #top-bar{
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
         padding: 14px;
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(128, 128, 128);      
+        border: outset 3px rgb(80, 80, 80);        
     }
     #clicavel{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -665,18 +922,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;   
+        border: outset 3px rgb(80, 80, 80);   
     }
     #clicavel:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel2{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -684,18 +940,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(20, 20, 20);  
     }
     #clicavel2:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel3{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -703,75 +958,89 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(80, 80, 80);  
     }
     #clicavel3:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
+    }
+    #map{
+        background-color: gray;
+        width: 122.5%;
+        height: 25em;
+        padding: 5px;
+        position: absolute;
+        left: 0%;
+        margin-top: 100%;
+        background-color: black;
     }
     #bot{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
         left: 0.16em;
-        top: 0.01em;
+        top: 3%;
         border-radius: 50%;
         display: inline-block;
     }
-        #bot:hover{
-            background-color: rgb(128, 128, 128);
-            cursor: pointer;
-        }
-        #bot2{
-            background-color: rgb(223, 223, 223);
-            position: absolute;
-            margin-top: 0.16em;
-            right:0.16em;
-            top: 0.01em;
-            border-radius: 50%;
-            display: inline-block;
-        }
-        #bot2:hover{
-            background-color: rgb(128, 128, 128);
-            cursor: pointer;
-        }
-        #bot3{
-            position: absolute;
-            left: 0.5em;
-            top: 0.5em;
-            border: 2px solid white;
-            background: white;
-            background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
-        }
-        #bot3:hover{
-            transition: 0.5s;
-            background-color: rgb(128, 128, 128);
-            cursor: pointer;
-            border: 3px solid rgb(185, 184, 184);
-            background: gray;
-            background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
-        }
-        footer{
-            position: fixed;
-            bottom: 0%;
-            width: 100%;
-            height: max-content;
-            background-color: gray;
-        }
-        #face{
-            position: fixed;
-            left:47%;
-        }
-        #insta{
-            position: fixed;
-            right: 45%;
-        }
+    #bot:hover{
+        transition: 0.5s;
+        cursor: pointer;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
+    }
+    #bot2{
+        background-color: rgb(143, 143, 143);
+        position: absolute;
+        margin-top: 0.16em;
+        right:0.16em;
+        top: 2%;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    #bot2:hover{
+        transition: 0.5s;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
+        border: 1px solid rgb(128, 128, 128);
+        cursor: pointer;
+    }
+    #bot3{
+        position: absolute;
+        left: 0.5em;
+        top: 0.5em;
+        border: 2px solid white;
+        background: white;
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
+    }
+    #bot3:hover{
+        transition: 0.5s;
+        background-color: rgb(128, 128, 128);
+        cursor: pointer;
+        border: 3px solid rgb(185, 184, 184);
+        background: gray;
+        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
+    }
+    footer{
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        height: max-content;
+        background-color: gray;
+    }
+    #face{
+        position: fixed;
+        left:47%;
+    }
+    #insta{
+        position: fixed;
+        right: 45%;
+    }
 }
 
 @media screen and (orientation: landscape) {
     body{
-        background-image: url(images/edit4.jpg);
+        background-image: url(images/back.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100%;
@@ -783,7 +1052,7 @@
     #spam{
         transition: 1s;
         padding: 2em;
-        background-color: gray;
+        background-color: rgb(80, 80, 80);
         border-radius: 2em;
         color: white;
         display: none;
@@ -799,20 +1068,19 @@
         box-shadow: inset 0 0 2em black;
     }
     #top-bar{
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
         padding: 14px;
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(128, 128, 128);        
+        border: outset 3px rgb(80, 80, 80);        
     }
     #clicavel{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -820,18 +1088,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;   
+        border: outset 3px rgb(80, 80, 80);   
     }
     #clicavel:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel2{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -839,18 +1106,17 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(20, 20, 20);  
     }
     #clicavel2:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #clicavel3{
         font-size: 1.5em;
-        background-color: rgb(51, 51, 51);
+        background-color: rgb(20, 20, 20);
         color: white;
-        border-radius: 3em;
         position: relative;
         padding: 14px;
         left: 13%;
@@ -858,12 +1124,12 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px black;  
+        border: outset 3px rgb(80, 80, 80);  
     }
     #clicavel3:hover{
         transition: 0.5s;
-        font-size: 1.6em;
-        box-shadow: inset 0 0 1em black;
+        font-size: 1.5em;
+        box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
     #map{
         background-color: gray;
@@ -877,7 +1143,7 @@
     }
     
     #bot{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
         left: 0.16em;
@@ -887,12 +1153,12 @@
     }
     #bot:hover{
         transition: 0.5s;
-        background-color: rgb(128, 128, 128);
         cursor: pointer;
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
     #bot2{
-        background-color: rgb(223, 223, 223);
+        background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
         right:0.16em;
@@ -902,7 +1168,7 @@
     }
     #bot2:hover{
         transition: 0.5s;
-        background-color: rgb(128, 128, 128);
+        box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
