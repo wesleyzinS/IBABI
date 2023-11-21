@@ -1,27 +1,35 @@
-body{
+body {
     background-image: url(images/AQUI\ É\ A\ IBABI!.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     background-color: #1F1E1E;
 }
-#imgCentral{
+
+#imgCentral {
     width: 100%;
     height: 35em;
     margin: 0%;
 }
-#logo{
+
+#logo {
     background-color: rgb(32, 32, 32);
     position: fixed;
     top: 0;
-    left:0;
+    left: 0;
     z-index: 1;
     height: 6em;
     width: 100%;
     margin: 0%;
     color: white;
 }
-.top{
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top {
     position: relative;
     left: 34.5em;
     display: inline-block;
@@ -30,7 +38,8 @@ body{
     cursor: pointer;
     margin-bottom: 2em;
 }
-#map{
+
+#map {
     position: absolute;
     top: 60em;
     width: 98.5%;
@@ -38,17 +47,19 @@ body{
     margin-top: 10px;
     padding: 10px;
 }
-#every{
+
+#every {
     background-color: rgb(20, 20, 20);
     color: white;
     text-align: center;
     position: absolute;
-    top: 65%;
+    top: 70%;
     bottom: 0%;
     width: 100%;
     height: 40%;
 }
-footer{
+
+footer {
     position: absolute;
     top: 91em;
     width: 100%;
@@ -56,22 +67,26 @@ footer{
     color: white;
     background-color: rgb(20, 20, 20);
 }
-#fot{
+
+#fot {
     position: absolute;
     left: 40.5%;
     top: 3.5em;
 }
-#fot2{
+
+#fot2 {
     text-align: center;
     position: relative;
     top: 3em;
 }
-#face{
+
+#face {
     position: absolute;
-    left:45%;
+    left: 45%;
     padding: 10px;
 }
-#insta{
+
+#insta {
     position: absolute;
     right: 45%;
     padding: 10px;

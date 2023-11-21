@@ -1,15 +1,15 @@
 @media screen and (orientation: portrait) {
-    body{
+    body {
         background-image: url(images/back.jpg);
         background-repeat: no-repeat;
         background-attachment: local;
-        background-size: 100% ;
+        background-size: 100%;
         background-color: #1F1E1E;
         text-align: center;
         width: 80vw;
         height: max-content;
     }
-    #spam{
+    #spam {
         padding: 2em;
         background-color: gray;
         border-radius: 2em;
@@ -22,11 +22,11 @@
         height: max-content;
         width: 30em;
     }
-    #spam:hover{
+    #spam:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 2em black;
     }
-    #top-bar{
+    #top-bar {
         background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
@@ -34,9 +34,9 @@
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(80, 80, 80);        
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel{
+    #clicavel {
         font-size: 1.5em;
         background-color: rgb(51, 51, 51);
         color: white;
@@ -47,14 +47,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);   
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel:hover{
+    #clicavel:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em black;
     }
-    #clicavel2{
+    #clicavel2 {
         font-size: 1.5em;
         background-color: rgb(51, 51, 51);
         color: white;
@@ -65,14 +65,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel2:hover{
+    #clicavel2:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em black;
     }
-    #clicavel3{
+    #clicavel3 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -83,14 +83,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel3:hover{
+    #clicavel3:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em black;
     }
-    #bot{
+    #bot {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
@@ -99,62 +99,62 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #bot:hover{
+    #bot:hover {
         transition: 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
-    #bot2{
+    #bot2 {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
-        right:0.16em;
+        right: 0.16em;
         top: 2%;
         border-radius: 50%;
         display: inline-block;
     }
-    #bot2:hover{
+    #bot2:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
-    #bot3{
+    #bot3 {
         position: absolute;
         left: 0.5em;
         top: 0.5em;
         border: 2px solid white;
         background: white;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
     }
-    #bot3:hover{
+    #bot3:hover {
         transition: 0.5s;
         background-color: rgb(128, 128, 128);
         cursor: pointer;
         border: 3px solid rgb(185, 184, 184);
         background: gray;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
     }
-    footer{
+    footer {
         position: fixed;
         bottom: 0%;
         width: 100%;
         height: max-content;
         background-color: gray;
     }
-    #face{
+    #face {
         position: fixed;
-        left:47%;
+        left: 47%;
     }
-    #insta{
+    #insta {
         position: fixed;
         right: 45%;
     }
 }
 
-@media screen and (orientation: portrait) and (max-width: 494px){
-    body{
+@media screen and (orientation: portrait) and (max-width: 494px) {
+    body {
         background-image: url(images/back-est.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -164,7 +164,7 @@
         width: 80vw;
         height: max-content;
     }
-    #spam{
+    #spam {
         padding: 2em;
         background-color: gray;
         border-radius: 2em;
@@ -177,11 +177,11 @@
         height: max-content;
         width: 30em;
     }
-    #spam:hover{
+    #spam:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 2em black;
     }
-    #top-bar{
+    #top-bar {
         background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
@@ -189,9 +189,9 @@
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(80, 80, 80);        
+        border: outset 3px rgb(80, 80, 80);
     }
-    #bot{
+    #bot {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
@@ -200,29 +200,28 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #bot:hover{
+    #bot:hover {
         transition: 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
-    #bot2{
+    #bot2 {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
-        right:0.16em;
+        right: 0.16em;
         top: 3%;
         border-radius: 50%;
         display: inline-block;
     }
-    #bot2:hover{
+    #bot2:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
-
-    #clicavel{
+    #clicavel {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -233,14 +232,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);   
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel:hover{
+    #clicavel:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel2{
+    #clicavel2 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -251,14 +250,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(20, 20, 20);  
+        border: outset 3px rgb(20, 20, 20);
     }
-    #clicavel2:hover{
+    #clicavel2:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel3{
+    #clicavel3 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -269,33 +268,32 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel3:hover{
+    #clicavel3:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    
-    footer{
+    footer {
         position: fixed;
         bottom: 0%;
         width: 100%;
         height: max-content;
         background-color: gray;
     }
-    #face{
+    #face {
         position: fixed;
-        left:47%;
+        left: 47%;
     }
-    #insta{
+    #insta {
         position: fixed;
         right: 45%;
     }
 }
 
-@media screen and (orientation: portrait) and (max-width: 408px){
-    body{
+@media screen and (orientation: portrait) and (max-width: 408px) {
+    body {
         background-image: url(images/back-est.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -305,7 +303,7 @@
         width: 80vw;
         height: max-content;
     }
-    #spam{
+    #spam {
         padding: 2em;
         background-color: gray;
         border-radius: 2em;
@@ -318,11 +316,11 @@
         height: max-content;
         width: 30em;
     }
-    #spam:hover{
+    #spam:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 2em black;
     }
-    #top-bar{
+    #top-bar {
         background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
@@ -330,9 +328,9 @@
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(80, 80, 80);        
+        border: outset 3px rgb(80, 80, 80);
     }
-    #bot{
+    #bot {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
@@ -341,29 +339,28 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #bot:hover{
+    #bot:hover {
         transition: 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
-    #bot2{
+    #bot2 {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
-        right:0.16em;
+        right: 0.16em;
         top: 3%;
         border-radius: 50%;
         display: inline-block;
     }
-    #bot2:hover{
+    #bot2:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
-
-    #clicavel{
+    #clicavel {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -374,14 +371,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);   
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel:hover{
+    #clicavel:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel2{
+    #clicavel2 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -392,14 +389,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(20, 20, 20);  
+        border: outset 3px rgb(20, 20, 20);
     }
-    #clicavel2:hover{
+    #clicavel2:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel3{
+    #clicavel3 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -410,33 +407,32 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel3:hover{
+    #clicavel3:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    
-    footer{
+    footer {
         position: fixed;
         bottom: 0%;
         width: 100%;
         height: max-content;
         background-color: gray;
     }
-    #face{
+    #face {
         position: fixed;
-        left:47%;
+        left: 47%;
     }
-    #insta{
+    #insta {
         position: fixed;
         right: 45%;
     }
 }
 
-@media screen and (orientation: portrait) and (max-width: 671px){
-    body{
+@media screen and (orientation: portrait) and (max-width: 671px) {
+    body {
         background-image: url(images/back-est.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -446,7 +442,7 @@
         width: 80vw;
         height: max-content;
     }
-    #spam{
+    #spam {
         padding: 2em;
         background-color: gray;
         border-radius: 2em;
@@ -459,11 +455,11 @@
         height: max-content;
         width: 30em;
     }
-    #spam:hover{
+    #spam:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 2em black;
     }
-    #top-bar{
+    #top-bar {
         background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
@@ -471,10 +467,9 @@
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(80, 80, 80);        
+        border: outset 3px rgb(80, 80, 80);
     }
-
-    #bot{
+    #bot {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
@@ -483,29 +478,28 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #bot:hover{
+    #bot:hover {
         transition: 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
-    #bot2{
+    #bot2 {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
-        right:0.16em;
+        right: 0.16em;
         top: 2%;
         border-radius: 50%;
         display: inline-block;
     }
-    #bot2:hover{
+    #bot2:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
-    
-    #clicavel{
+    #clicavel {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -516,14 +510,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);   
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel:hover{
+    #clicavel:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel2{
+    #clicavel2 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -534,14 +528,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(20, 20, 20);  
+        border: outset 3px rgb(20, 20, 20);
     }
-    #clicavel2:hover{
+    #clicavel2:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel3{
+    #clicavel3 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -552,32 +546,32 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel3:hover{
+    #clicavel3:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    footer{
+    footer {
         position: fixed;
         bottom: 0%;
         width: 100%;
         height: max-content;
         background-color: gray;
     }
-    #face{
+    #face {
         position: fixed;
-        left:47%;
+        left: 47%;
     }
-    #insta{
+    #insta {
         position: fixed;
         right: 45%;
     }
 }
 
-@media screen and (orientation: portrait) and (max-width: 280px){
-    body{
+@media screen and (orientation: portrait) and (max-width: 280px) {
+    body {
         background-image: url(images/back-est.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -587,7 +581,7 @@
         width: 80vw;
         height: max-content;
     }
-    #spam{
+    #spam {
         padding: 2em;
         background-color: gray;
         border-radius: 2em;
@@ -600,11 +594,11 @@
         height: max-content;
         width: 30em;
     }
-    #spam:hover{
+    #spam:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 2em black;
     }
-    #top-bar{
+    #top-bar {
         background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
@@ -612,10 +606,9 @@
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(80, 80, 80);        
+        border: outset 3px rgb(80, 80, 80);
     }
-
-    #clicavel{
+    #clicavel {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -626,14 +619,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);   
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel:hover{
+    #clicavel:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel2{
+    #clicavel2 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -644,14 +637,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(20, 20, 20);  
+        border: outset 3px rgb(20, 20, 20);
     }
-    #clicavel2:hover{
+    #clicavel2:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel3{
+    #clicavel3 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -662,15 +655,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel3:hover{
+    #clicavel3:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    
-    #bot{
+    #bot {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
@@ -679,46 +671,46 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #bot:hover{
+    #bot:hover {
         transition: 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
-    #bot2{
+    #bot2 {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
-        right:0.16em;
+        right: 0.16em;
         top: 2%;
         border-radius: 50%;
         display: inline-block;
     }
-    #bot2:hover{
+    #bot2:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
-    footer{
+    footer {
         position: fixed;
         bottom: 0%;
         width: 100%;
         height: max-content;
         background-color: gray;
     }
-    #face{
+    #face {
         position: fixed;
-        left:47%;
+        left: 47%;
     }
-    #insta{
+    #insta {
         position: fixed;
         right: 45%;
     }
 }
 
-@media screen and (orientation: portrait) and (min-width: 495px) and (max-width: 672px){
-    body{
+@media screen and (orientation: portrait) and (min-width: 495px) and (max-width: 672px) {
+    body {
         background-image: url(images/back-est.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -728,7 +720,7 @@
         width: 80vw;
         height: max-content;
     }
-    #spam{
+    #spam {
         padding: 2em;
         background-color: gray;
         border-radius: 2em;
@@ -741,11 +733,11 @@
         height: max-content;
         width: 30em;
     }
-    #spam:hover{
+    #spam:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 2em black;
     }
-    #top-bar{
+    #top-bar {
         background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
@@ -753,9 +745,9 @@
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(80, 80, 80);        
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel{
+    #clicavel {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -766,14 +758,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);   
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel:hover{
+    #clicavel:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel2{
+    #clicavel2 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -784,14 +776,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(20, 20, 20);  
+        border: outset 3px rgb(20, 20, 20);
     }
-    #clicavel2:hover{
+    #clicavel2:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel3{
+    #clicavel3 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -802,15 +794,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel3:hover{
+    #clicavel3:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    
-    #bot{
+    #bot {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
@@ -819,62 +810,62 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #bot:hover{
+    #bot:hover {
         transition: 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
-    #bot2{
+    #bot2 {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
-        right:0.16em;
+        right: 0.16em;
         top: 13%;
         border-radius: 50%;
         display: inline-block;
     }
-    #bot2:hover{
+    #bot2:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
-    #bot3{
+    #bot3 {
         position: absolute;
         left: 0.5em;
         top: 0.5em;
         border: 2px solid white;
         background: white;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
     }
-    #bot3:hover{
+    #bot3:hover {
         transition: 0.5s;
         background-color: rgb(128, 128, 128);
         cursor: pointer;
         border: 3px solid rgb(185, 184, 184);
         background: gray;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
     }
-    footer{
+    footer {
         position: fixed;
         bottom: 0%;
         width: 100%;
         height: max-content;
         background-color: gray;
     }
-    #face{
+    #face {
         position: fixed;
-        left:47%;
+        left: 47%;
     }
-    #insta{
+    #insta {
         position: fixed;
         right: 45%;
     }
 }
 
-@media screen and (orientation: portrait) and (min-width:672px) and (max-width: 893px){
-    body{
+@media screen and (orientation: portrait) and (min-width:672px) and (max-width: 893px) {
+    body {
         background-image: url(images/back.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -884,7 +875,7 @@
         width: 80vw;
         height: max-content;
     }
-    #spam{
+    #spam {
         padding: 2em;
         background-color: gray;
         border-radius: 2em;
@@ -897,11 +888,11 @@
         height: max-content;
         width: 30em;
     }
-    #spam:hover{
+    #spam:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 2em black;
     }
-    #top-bar{
+    #top-bar {
         background-color: rgb(20, 20, 20);
         border-radius: 3em;
         position: fixed;
@@ -909,9 +900,9 @@
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(80, 80, 80);        
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel{
+    #clicavel {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -922,14 +913,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);   
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel:hover{
+    #clicavel:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel2{
+    #clicavel2 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -940,14 +931,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(20, 20, 20);  
+        border: outset 3px rgb(20, 20, 20);
     }
-    #clicavel2:hover{
+    #clicavel2:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel3{
+    #clicavel3 {
         font-size: 1.5em;
         background-color: rgb(20, 20, 20);
         color: white;
@@ -958,14 +949,14 @@
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel3:hover{
+    #clicavel3:hover {
         transition: 0.5s;
         font-size: 1.5em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #map{
+    #map {
         background-color: gray;
         width: 122.5%;
         height: 25em;
@@ -975,7 +966,7 @@
         margin-top: 100%;
         background-color: black;
     }
-    #bot{
+    #bot {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
@@ -984,62 +975,62 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #bot:hover{
+    #bot:hover {
         transition: 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
-    #bot2{
+    #bot2 {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
-        right:0.16em;
+        right: 0.16em;
         top: 2%;
         border-radius: 50%;
         display: inline-block;
     }
-    #bot2:hover{
+    #bot2:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
-    #bot3{
+    #bot3 {
         position: absolute;
         left: 0.5em;
         top: 0.5em;
         border: 2px solid white;
         background: white;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
     }
-    #bot3:hover{
+    #bot3:hover {
         transition: 0.5s;
         background-color: rgb(128, 128, 128);
         cursor: pointer;
         border: 3px solid rgb(185, 184, 184);
         background: gray;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
     }
-    footer{
+    footer {
         position: fixed;
         bottom: 0%;
         width: 100%;
         height: max-content;
         background-color: gray;
     }
-    #face{
+    #face {
         position: fixed;
-        left:47%;
+        left: 47%;
     }
-    #insta{
+    #insta {
         position: fixed;
         right: 45%;
     }
 }
 
 @media screen and (orientation: landscape) {
-    body{
+    body {
         background-image: url(images/back.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
@@ -1049,89 +1040,91 @@
         width: 80vw;
         height: max-content;
     }
-    #spam{
+    #spam {
         transition: 1s;
         padding: 2em;
         background-color: rgb(80, 80, 80);
-        border-radius: 2em;
         color: white;
-        display: none;
         position: absolute;
+        opacity: 0%;
         z-index: 1;
         top: 35%;
         left: 31%;
         height: max-content;
-        width: max-content;   
+        width: max-content;
+        border: 2px outset gray;
     }
-    #spam:hover{
+    #spam:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 2em black;
     }
-    #top-bar{
+    #top-bar {
         background-color: rgb(20, 20, 20);
-        border-radius: 3em;
         position: fixed;
         padding: 14px;
         left: 0%;
         right: 0%;
         margin: 0 auto;
-        border: outset 3px rgb(80, 80, 80);        
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel{
-        font-size: 1.5em;
+    #clicavel {
+        font-size: 3em;
         background-color: rgb(20, 20, 20);
         color: white;
         position: relative;
         padding: 14px;
-        left: 13%;
-        top: 7em;
+        left: 10.5%;
+        top: 4em;
+        border-radius: 30px;
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);   
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel:hover{
+    #clicavel:hover {
         transition: 0.5s;
-        font-size: 1.5em;
+        font-size: 3.1em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel2{
-        font-size: 1.5em;
+    #clicavel2 {
+        font-size: 3em;
         background-color: rgb(20, 20, 20);
         color: white;
         position: relative;
         padding: 14px;
-        left: 13%;
-        top: 9em;
+        left: 10.5%;
+        top: 6em;
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(20, 20, 20);  
+        border-radius: 30px;
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel2:hover{
+    #clicavel2:hover {
         transition: 0.5s;
-        font-size: 1.5em;
+        font-size: 3.1em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #clicavel3{
-        font-size: 1.5em;
+    #clicavel3 {
+        font-size: 3em;
         background-color: rgb(20, 20, 20);
         color: white;
         position: relative;
         padding: 14px;
-        left: 13%;
-        top: 11em;
+        left: 10.5%;
+        top: 8em;
         margin: 0 auto;
         width: 12em;
         height: max-content;
-        border: outset 3px rgb(80, 80, 80);  
+        border-radius: 30px;
+        border: outset 3px rgb(80, 80, 80);
     }
-    #clicavel3:hover{
+    #clicavel3:hover {
         transition: 0.5s;
-        font-size: 1.5em;
+        font-size: 3.1em;
         box-shadow: inset 0 0 1em rgb(80, 80, 80);
     }
-    #map{
+    #map {
         background-color: gray;
         width: 122.5%;
         height: 25em;
@@ -1141,9 +1134,8 @@
         margin-top: 100%;
         background-color: black;
     }
-    
-    #bot{
-        background-color: rgb(143, 143, 143);
+    #bot {
+        background-color: rgb(26, 26, 26);
         position: absolute;
         margin-top: 0.16em;
         left: 0.16em;
@@ -1151,69 +1143,70 @@
         border-radius: 50%;
         display: inline-block;
     }
-    #bot:hover{
+    #bot:hover {
         transition: 0.5s;
         cursor: pointer;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
     }
-    #bot2{
+    #bot2 {
         background-color: rgb(143, 143, 143);
         position: absolute;
         margin-top: 0.16em;
-        right:0.16em;
+        right: 0.16em;
         top: 2%;
         border-radius: 50%;
         display: inline-block;
     }
-    #bot2:hover{
+    #bot2:hover {
         transition: 0.5s;
         box-shadow: inset 0 0 20px rgb(56, 56, 56);
         border: 1px solid rgb(128, 128, 128);
         cursor: pointer;
     }
-    #bot3{
+    #bot3 {
         position: absolute;
         right: 37em;
         bottom: 6em;
         border: 2px solid white;
         background: white;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(255, 255, 255) 0%, rgb(163, 163, 163) 100%);
     }
-    #bot3:hover{
+    #bot3:hover {
         transition: 0.5s;
         background-color: rgb(128, 128, 128);
         cursor: pointer;
         border: 3px solid rgb(185, 184, 184);
         background: gray;
-        background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
+        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(202, 202, 202) 0%, rgb(141, 141, 141) 100%);
     }
-    footer{
+    footer {
         position: fixed;
         bottom: 0%;
         width: 100%;
         height: max-content;
         background-color: gray;
     }
-    #face{
+    #face {
         position: fixed;
-        left:47%;
+        left: 47%;
     }
-    #insta{
+    #insta {
         position: fixed;
         right: 45%;
     }
-}    
-.text{
-        transition: 1s;
-        text-align: center;
-        margin-top: 10px;
-        margin-left: 35%;
-        margin-right: 35%;
-        margin-bottom: 7px;
-        color: white;
-        width: 30%;
-        font-family: Storybook ;
-        font-size: 20px;
-        border-radius: 20%;
-    }
+}
+
+.text {
+    transition: 1s;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 7px;
+    color: white;
+    width: 30%;
+    font-family: Storybook;
+    font-size: 20px;
+    border-radius: 20%;
+}
